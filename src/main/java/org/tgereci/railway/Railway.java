@@ -63,6 +63,7 @@ public class Railway {
 		System.out.println("2 - the number of trips between two towns with maximum or exact number of stops");
 		System.out.println("3 - the length of the shortest route (in terms of distance to travel) between two towns");
 		System.out.println("4 - the number of different routes between two towns");
+		System.out.println("exit - exit the app");
 		System.out.print("Select option (1-4): ");
 		return Option.getByCode(Operation.getInput());
 	}

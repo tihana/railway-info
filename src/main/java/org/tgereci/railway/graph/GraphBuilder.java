@@ -41,7 +41,7 @@ public class GraphBuilder {
 			return builder;
 		}
 		for (String edge : input.replaceAll(" ", "").split(",")) {
-			if (!edge.matches("[A-Z][A-Z][0-9]")) {
+			if (!edge.matches("[a-zA-Z][a-zA-Z][0-9]")) {
 				throw new IllegalArgumentException("Invalid edge: " + edge);
 			}
 			String from = String.valueOf(edge.charAt(0));
